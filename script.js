@@ -6,7 +6,7 @@ let isNumber = function(inputNumber){
 
 
 let numberGame = function() {
-    let theAnswer = 50;
+    let theAnswer = (Math.floor(Math.random()*100) ) + 1;
     let numberInput = function() {
         let givenAnswer = prompt('Угадай число от 1 до 100');
             if ( !isNumber(givenAnswer) ){
